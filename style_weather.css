@@ -1,0 +1,171 @@
+/*Wetterappfunktionen*/
+.content {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.weatherForm {
+    margin: 20px;
+}
+
+.cityInput {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.submit {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(110, 163, 30);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: rgb(76, 114, 18);
+}
+
+.card{
+    background: #55885a;
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.856);
+    margin-bottom: 25px;
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+} 
+
+.weatherEmoji{
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.whatToWear{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.errorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+
+
+
+
+/*Navigationsbar*/
+
+nav{
+    width: 100%;
+    height: 85px;
+    background-color: #4F6F52;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.11);
+}
+
+nav ul{
+    float: right;;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-right: 25px;
+}
+
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4F6F52;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 28px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #1b5a5a;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #338585;
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+nav ul li ul li a:hover{
+    background-color: #1b5a5a;
+}
+
+
+.navi {
+    margin: 0;
+    padding: 0;
+}
+
+.navi a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    background-color: #4F6F52;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

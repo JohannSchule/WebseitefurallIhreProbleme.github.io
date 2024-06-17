@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Webseite für all ihre Probleme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_tictactoe.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navi">
+                <li><a href="index.html" id="Home" class="left">Home</a></li>
+                <li><a href="aboutus.html" target="_blank" class="left">Über uns</a></li>
+                <li><a>Kategorien</a>
+                    <ul>
+                        <li><a href="weather.html">Wetter</a></li>
+                        <li><a href="christmas.html">Weihnachten</a></li>
+                        <li><a href="tictactoe.html">Tic Tac Zeh</a></li>
+                        <li><a href="burger.html">Burger Clicker</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bd">
+        <div class="spielcontainer">
+            <h1>Tic Tac Toe</h1>
+            <div id="board">
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+                <div class="feld"></div>
+            </div>
+            <p id="Winner"></p>
+            <button id="buttonreset" type="button">Neustart</button>
+        </div>
+    </section>
+    <script src="script_tictactoe.js"></script>
+    <footer>
+    </footer>
+</body>
+</html>

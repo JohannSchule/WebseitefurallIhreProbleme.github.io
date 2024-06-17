@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Webseite für all ihre Probleme</title>
+        <meta name="viewport"content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_burger.css">
+        <script src="script_burger.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navi">
+                    <li><a href="index.html" id="Home" class="left">Home</a></li>
+                    <li><a href="aboutus.html" target="_blank" class="left">Über uns</a></li>
+                    <li><a>Kategorien</a>
+                        <ul>
+                            <li><a href="weather.html">Wetter</a></li>
+                            <li><a href="christmas.html">Weihnachten</a></li>
+                            <li><a href="tictactoe.html">Tic Tac Zeh</a></li>
+                            <li><a href="burger.html">Burger Clicker</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                </ul>
+            </nav>
+        </header>
+        <div class="containers">
+            <section class="content">
+                <div class="container">
+                    <div class="center">
+                        <h1 id="heading">Burger Clicker</h1>
+                        <h1 id="burger">0 Burger</h1>
+                        <button id="burgerbutton" onclick="Burger()">
+                            <div class="burgerimg" width="600"></div>
+                        </button>
+                    </div>
+                    <div class="right">
+                        <div class="cheese-container">
+                            <h1 id ="keesee">Cheeseburger</h1>
+                            <div id="Knoopf" onclick="Cheese()" class="image-container">
+                                <h1 id ="cheese">0/10</h1>
+                            </div>
+                        </div>
+                        <script src="script_burger.js"></script>
+                    <div class="right">
+                        <div class="big-container">
+                            <h1 id ="megges">Big Macs</h1>
+                            <div id="beton" onclick="BigMac()" class="images-container">
+                                <h1 id ="big">0/1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chef">
+                        <h1 title="Klickt automatisch einmal pro Sekunde. 1 Big Mac = 1 Chefkoch" id ="clicker">0 Chefköche</h1>
+                        <button id="chefkoch" onclick="kiffen()">
+                            Chefkoch einstellen
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
